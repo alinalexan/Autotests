@@ -17,7 +17,6 @@ public class MenuTitlesTest extends BaseScript{
         By emailLocator = By.id("email");
         By passwordLocator = By.id("passwd");
         By loginBtnLocator = By.name("submitLogin");
-		
         String email = "webinar.test@gmail.com";
         String password = "Xcg7299bnSmMuRLp9ITw";
 	
