@@ -54,7 +54,9 @@ public class MenuTitlesTest extends BaseScript{
 				throw new Exception("Not the same page title after refresh");
 			}
         }
-
+        
+        driver.quit();
+        
     }
 }
 
