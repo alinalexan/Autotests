@@ -13,19 +13,19 @@ import task2.QATestTask2.BaseScript;
 public class MenuTitlesTest extends BaseScript{
 	
     public static void main(String[] args) throws Exception {
-       
+
+        By emailLocator = By.id("email");
+        By passwordLocator = By.id("passwd");
+        By loginBtnLocator = By.name("submitLogin");
+        String email = "webinar.test@gmail.com";
+        String password = "Xcg7299bnSmMuRLp9ITw";
+	
     	List<String> menuItemsText = new ArrayList<>();
     	WebDriver driver = getDriver();
     	
     	driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.navigate().to("http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/");
-       
-        By emailLocator = By.id("email");
-        By passwordLocator = By.id("passwd");
-        By loginBtnLocator = By.name("submitLogin");
-        String email = "webinar.test@gmail.com";
-        String password = "Xcg7299bnSmMuRLp9ITw";	
-     
+
         driver.findElement(emailLocator).sendKeys(email);
         driver.findElement(passwordLocator).sendKeys(password);
         driver.findElement(loginBtnLocator).click();
@@ -54,7 +54,7 @@ public class MenuTitlesTest extends BaseScript{
 				throw new Exception("Not the same page title after refresh");
 			}
         }
-
+        driver.quit();
+        
     }
 }
-
