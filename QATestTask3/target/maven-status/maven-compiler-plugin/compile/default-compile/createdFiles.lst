@@ -1,0 +1,6 @@
+task3\QATestTask3\tests\CreateCategoryTest.class
+task3\QATestTask3\utils\EnvironmentVariables.class
+task3\QATestTask3\BaseScript.class
+task3\QATestTask3\GeneralActions.class
+task3\QATestTask3\utils\Properties.class
+task3\QATestTask3\EventHandler.class
