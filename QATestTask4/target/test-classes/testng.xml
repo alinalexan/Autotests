@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" verbose="1" thread-count="5" parallel="tests">
+  <test name="Task4_Chrome" >
+    <parameter name="browser" value="chrome"/>
+	    <classes>
+	       <class name="task4.QATestTask4.tests.CreateProductTest" />
+	    </classes>
+  </test>
+<!-- 
+  <test name="Task4_FireFox" >
+    <parameter name="browser" value="firefox"/>
+	    <classes>
+	       <class name="task4.QATestTask4.tests.CreateProductTest" />
+	    </classes>
+  </test>
+  <test name="Task4_IE" >
+    <parameter name="browser" value="ie"/>
+	    <classes>
+	       <class name="task4.QATestTask4.tests.CreateProductTest" />
+	    </classes>
+  </test>
+-->
+</suite>

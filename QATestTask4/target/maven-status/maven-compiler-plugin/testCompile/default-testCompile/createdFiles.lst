@@ -1,0 +1,8 @@
+task4\QATestTask4\tests\CreateProductTest.class
+task4\QATestTask4\model\ProductData.class
+task4\QATestTask4\utils\logging\EventHandler.class
+task4\QATestTask4\GeneralActions.class
+task4\QATestTask4\BaseScript.class
+task4\QATestTask4\utils\Properties.class
+task4\QATestTask4\utils\logging\CustomReporter.class
+task4\QATestTask4\utils\EnvironmentVariables.class

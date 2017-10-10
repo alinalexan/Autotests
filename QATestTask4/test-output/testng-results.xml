@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="5" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[[12:28:20.386] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:43.095] Change value of input: webinar.test@gmail.com
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:43.183] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:43.209] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:43.317] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:48.007] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:48.017] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:53.935] Execute script: return document.readyState]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:53.943] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:53.984] Change value of input: Skirt
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.167] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.202] Change value of input: 
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.262] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.268] Change value of input: 7
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.311] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.311] Execute script: scroll(0,400);]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.316] Script executed]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.414] Change value of input: 
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.479] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.482] Change value of input: 54,33
+]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:54.638] Changed element input]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:55.272] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:58.445] Execute script: arguments[0].scrollIntoView(true);]]>
+    </line>
+    <line>
+      <![CDATA[[12:28:58.451] Script executed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="63662" started-at="2017-10-10T09:28:16Z" finished-at="2017-10-10T09:29:20Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="63662" started-at="2017-10-10T09:28:16Z" finished-at="2017-10-10T09:29:20Z">
+      <class name="task4.QATestTask4.tests.CreateProductTest">
+        <test-method status="PASS" signature="openNewProductPage(java.lang.String)[pri:1, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="openNewProductPage" duration-ms="37381" started-at="2017-10-10T12:28:16Z" finished-at="2017-10-10T12:28:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[12:28:20.386] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:43.095] Change value of input: webinar.test@gmail.com
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:43.183] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:43.209] Change value of input: Xcg7299bnSmMuRLp9ITw
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:43.317] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:48.007] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:48.017] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:53.935] Execute script: return document.readyState]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:53.943] Script executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openNewProductPage -->
+        <test-method status="PASS" signature="fillNewProductData(java.lang.String, java.lang.Integer, java.lang.String)[pri:2, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="fillNewProductData" duration-ms="691" started-at="2017-10-10T12:28:53Z" data-provider="generateProduct" finished-at="2017-10-10T12:28:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Skirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[54,33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[12:28:53.984] Change value of input: Skirt
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.167] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.202] Change value of input: 
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.262] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.268] Change value of input: 7
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.311] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.311] Execute script: scroll(0,400);]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.316] Script executed]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.414] Change value of input: 
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.479] Changed element input]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.482] Change value of input: 54,33
+]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:54.638] Changed element input]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- fillNewProductData -->
+        <test-method status="PASS" signature="saveNewProduct()[pri:3, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="saveNewProduct" duration-ms="631" started-at="2017-10-10T12:28:54Z" finished-at="2017-10-10T12:28:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveNewProduct -->
+        <test-method status="FAIL" signature="verifyCreatedProductInList()[pri:4, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="verifyCreatedProductInList" duration-ms="24296" started-at="2017-10-10T12:28:55Z" finished-at="2017-10-10T12:29:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-price-and-shipping' and contains(.,'54,33')]/parent::div//a"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'D77', ip: '10.109.10.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\ALINAA~1.MIC\AppData\Local\Temp\scoped_dir5576_3365}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 67faa11b5d5a047e51ae4a6c723e6600
+*** Element info: {Using=xpath, value=//div[@class='product-price-and-shipping' and contains(.,'54,33')]/parent::div//a}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='product-price-and-shipping' and contains(.,'54,33')]/parent::div//a"}
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.15063 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
+System info: host: 'D77', ip: '10.109.10.77', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8), userDataDir=C:\Users\ALINAA~1.MIC\AppData\Local\Temp\scoped_dir5576_3365}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 67faa11b5d5a047e51ae4a6c723e6600
+*** Element info: {Using=xpath, value=//div[@class='product-price-and-shipping' and contains(.,'54,33')]/parent::div//a}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:109)
+	at com.sun.proxy.$Proxy8.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:193)
+	at task4.QATestTask4.tests.CreateProductTest.verifyCreatedProductInList(CreateProductTest.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[[12:28:55.272] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:58.445] Execute script: arguments[0].scrollIntoView(true);]]>
+            </line>
+            <line>
+              <![CDATA[[12:28:58.451] Script executed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCreatedProductInList -->
+        <test-method status="SKIP" signature="verifyDetailedProductInformation()[pri:0, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="verifyDetailedProductInformation" duration-ms="0" started-at="2017-10-10T12:29:19Z" depends-on-methods="task4.QATestTask4.tests.CreateProductTest.verifyCreatedProductInList" finished-at="2017-10-10T12:29:19Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateProductTest.verifyDetailedProductInformation()[pri:0, instance:task4.QATestTask4.tests.CreateProductTest@523884b2] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateProductTest.verifyDetailedProductInformation()[pri:0, instance:task4.QATestTask4.tests.CreateProductTest@523884b2] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDetailedProductInformation -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:task4.QATestTask4.tests.CreateProductTest@523884b2]" name="tearDown" is-config="true" duration-ms="640" started-at="2017-10-10T12:29:19Z" finished-at="2017-10-10T12:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- task4.QATestTask4.tests.CreateProductTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

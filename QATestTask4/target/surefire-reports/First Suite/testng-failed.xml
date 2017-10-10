@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [First Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test name="Task4">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="task4.QATestTask4.tests.CreateProductTest"/>
+    </classes>
+  </test> <!-- Task4 -->
+  <test name="Task4(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="task4.QATestTask4.tests.CreateProductTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="createNewProduct"/>
+          <include name="createNewProduct"/>
+        </methods>
+      </class> <!-- task4.QATestTask4.tests.CreateProductTest -->
+    </classes>
+  </test> <!-- Task4(failed) -->
+</suite> <!-- Failed suite [First Suite] -->

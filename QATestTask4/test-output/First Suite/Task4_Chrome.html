@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>TestNG:  Task4_Chrome</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Task4_Chrome</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Oct 08 23:11:32 EEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>22 seconds (22067 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='task4.QATestTask4.tests.CreateProductTest.fillNewProductData()'><b>fillNewProductData</b><br>Test class: task4.QATestTask4.tests.CreateProductTest<br>Parameters: Laces, 1, 98.51<br/>
+<a href="#Output-4562530" onClick='toggleBox("Output-4562530", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4562530" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4562530">
+[23:11:48.893] Change value of input: Laces
+<br/>
+[23:11:49.297] Changed element input<br/>
+[23:11:49.39 ] Change value of input: ?
+<br/>
+[23:11:49.53 ] Changed element input<br/>
+[23:11:49.546] Change value of input: 1
+<br/>
+[23:11:49.632] Changed element input<br/>
+[23:11:49.632] Execute script: scroll(0,400);<br/>
+[23:11:49.653] Script executed<br/>
+[23:11:49.823] Change value of input: ?
+<br/>
+[23:11:49.931] Changed element input<br/>
+[23:11:49.938] Change value of input: 98.51
+<br/>
+[23:11:50.202] Changed element input<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>task4.QATestTask4.tests.CreateProductTest@be83e4</td></tr>
+<tr>
+<td title='task4.QATestTask4.tests.CreateProductTest.openNewProductPage()'><b>openNewProductPage</b><br>Test class: task4.QATestTask4.tests.CreateProductTest<br>Parameters: chrome<br/>
+<a href="#Output-4505859" onClick='toggleBox("Output-4505859", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-4505859" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-4505859">
+[23:11:37.051] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/<br/>
+[23:11:39.327] Change value of input: webinar.test@gmail.com
+<br/>
+[23:11:39.548] Changed element input<br/>
+[23:11:39.586] Change value of input: Xcg7299bnSmMuRLp9ITw
+<br/>
+[23:11:39.785] Changed element input<br/>
+[23:11:44.869] Execute script: return document.readyState<br/>
+[23:11:44.889] Script executed<br/>
+[23:11:48.837] Execute script: return document.readyState<br/>
+[23:11:48.845] Script executed<br/>
+</div>
+</td>
+<td></td>
+<td>16</td>
+<td>task4.QATestTask4.tests.CreateProductTest@be83e4</td></tr>
+<tr>
+<td title='task4.QATestTask4.tests.CreateProductTest.saveNewProduct()'><b>saveNewProduct</b><br>Test class: task4.QATestTask4.tests.CreateProductTest</td>
+<td></td>
+<td>1</td>
+<td>task4.QATestTask4.tests.CreateProductTest@be83e4</td></tr>
+<tr>
+<td title='task4.QATestTask4.tests.CreateProductTest.verifyCreatedProductInList()'><b>verifyCreatedProductInList</b><br>Test class: task4.QATestTask4.tests.CreateProductTest<br/>
+<a href="#Output-2259084" onClick='toggleBox("Output-2259084", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2259084" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2259084">
+[23:11:51.306] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[23:11:52.698] Execute script: arguments[0].scrollIntoView(true);<br/>
+[23:11:52.712] Script executed<br/>
+[23:11:53.66 ] Execute script: arguments[0].scrollIntoView(true);<br/>
+[23:11:53.669] Script executed<br/>
+</div>
+</td>
+<td></td>
+<td>3</td>
+<td>task4.QATestTask4.tests.CreateProductTest@be83e4</td></tr>
+<tr>
+<td title='task4.QATestTask4.tests.CreateProductTest.verifyDetailedProductInformation()'><b>verifyDetailedProductInformation</b><br>Test class: task4.QATestTask4.tests.CreateProductTest</td>
+<td></td>
+<td>0</td>
+<td>task4.QATestTask4.tests.CreateProductTest@be83e4</td></tr>
+</table><p>
+</body>
+</html>
