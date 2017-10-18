@@ -1,0 +1,170 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Oct 17 23:30:14 EEST 2017</td>
+</tr>
+<tr><td>Total time:</td><td>21 seconds (21008 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='task5.QATestTask5.tests.PlaceOrderTest.checkSiteVersion()'><b>checkSiteVersion</b><br>Test class: task5.QATestTask5.tests.PlaceOrderTest<br>Parameters: chrome<br/>
+<a href="#Output-31369915" onClick='toggleBox("Output-31369915", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-31369915" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-31369915">
+[23:30:18.855] Navigate to http://prestashop-automation.qatestlab.com.ua/<br/>
+[23:30:21.365] Search for element By.cssSelector: #contact-link > a<br/>
+[23:30:21.443] Search for element By.cssSelector: #category-3 > a<br/>
+[23:30:21.503] Search for element By.xpath: //div[@class='header']/span[1]<br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>task5.QATestTask5.tests.PlaceOrderTest@a3ffec</td></tr>
+<tr>
+<td title='task5.QATestTask5.tests.PlaceOrderTest.createNewOrder()'><b>createNewOrder</b><br>Test class: task5.QATestTask5.tests.PlaceOrderTest<br/>
+<a href="#Output-29359127" onClick='toggleBox("Output-29359127", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-29359127" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-29359127">
+[23:30:21.566] Search for element By.xpath: //a[@class='all-product-link' or contains(.,'??? ??????')]<br/>
+[23:30:21.592] Execute script: arguments[0].scrollIntoView(true);<br/>
+[23:30:21.609] Script executed<br/>
+[23:30:21.609] Search for element By.xpath: //a[@class='all-product-link' or contains(.,'??? ??????')]<br/>
+[23:30:21.644] Click on element a<br/>
+[23:30:22.629] Search for element By.cssSelector: .product-description<br/>
+[23:30:22.7  ] Click on element div<br/>
+[23:30:23.685] Search for element By.cssSelector: h1.h1<br/>
+[23:30:23.762] Search for element By.cssSelector: div.current-price > span<br/>
+[23:30:23.82 ] Search for element By.cssSelector: div.product-quantities > span<br/>
+[23:30:23.904] Search for element By.cssSelector: button.btn.btn-primary.add-to-cart<br/>
+[23:30:23.952] Click on element button<br/>
+[23:30:24.097] Search for element By.cssSelector: a.btn.btn-primary<br/>
+[23:30:24.954] Search for element By.cssSelector: a.btn.btn-primary<br/>
+[23:30:24.982] Click on element a<br/>
+[23:30:25.8  ] Search for element By.cssSelector: div.product-line-info > span.value:nth-child(1)<br/>
+[23:30:25.858] Search for element By.cssSelector: input.js-cart-line-product-quantity.form-control<br/>
+[23:30:25.892] Search for element By.cssSelector: a.btn.btn-primary<br/>
+[23:30:25.909] Click on element a<br/>
+[23:30:26.717] Search for element By.name: firstname<br/>
+[23:30:26.754] Change value of input: Kelly
+<br/>
+[23:30:26.859] Changed element input<br/>
+[23:30:26.859] Search for element By.name: lastname<br/>
+[23:30:26.894] Change value of input: Hatfield
+<br/>
+[23:30:27.019] Changed element input<br/>
+[23:30:27.019] Search for element By.name: email<br/>
+[23:30:27.057] Change value of input: Kelly10171130@outlook.com
+<br/>
+[23:30:27.328] Changed element input<br/>
+[23:30:27.328] Search for element By.cssSelector: button.continue<br/>
+[23:30:27.366] Click on element button<br/>
+[23:30:28.401] Search for element By.name: address1<br/>
+[23:30:28.442] Change value of input: Green, 01
+<br/>
+[23:30:28.571] Changed element input<br/>
+[23:30:28.571] Search for element By.name: postcode<br/>
+[23:30:28.605] Change value of input: 49987
+<br/>
+[23:30:28.701] Changed element input<br/>
+[23:30:28.701] Search for element By.name: city<br/>
+[23:30:28.741] Change value of input: Kharkov
+<br/>
+[23:30:28.867] Changed element input<br/>
+[23:30:28.867] Search for element By.name: confirm-addresses<br/>
+[23:30:28.916] Click on element button<br/>
+[23:30:29.949] Search for element By.name: confirmDeliveryOption<br/>
+[23:30:29.996] Click on element button<br/>
+[23:30:31.073] Search for element By.xpath: //*[@id='payment-option-2-container']/label/span<br/>
+[23:30:31.122] Click on element span<br/>
+[23:30:31.234] Search for element By.name: conditions_to_approve[terms-and-conditions]<br/>
+[23:30:31.277] Click on element input<br/>
+[23:30:31.365] Search for element By.cssSelector: button.btn.btn-primary.center-block<br/>
+[23:30:31.401] Click on element button<br/>
+[23:30:32.975] Search for element By.cssSelector: h3.h1.card-title<br/>
+[23:30:33.049] Search for element By.cssSelector: div.col-xs-5.text-sm-right.text-xs-left<br/>
+[23:30:33.099] Search for element By.cssSelector: div.col-xs-2<br/>
+[23:30:33.15 ] Search for element By.cssSelector: a.all-product-link<br/>
+[23:30:33.176] Execute script: arguments[0].scrollIntoView(true);<br/>
+[23:30:33.186] Script executed<br/>
+[23:30:33.199] Click on element a<br/>
+[23:30:34.139] Search for element By.xpath: //h1//a[contains(.,'Sweater')]<br/>
+[23:30:34.181] Click on element a<br/>
+[23:30:35.264] Search for element By.cssSelector: div.product-quantities > span<br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>task5.QATestTask5.tests.PlaceOrderTest@a3ffec</td></tr>
+</table><p>
+</body>
+</html>

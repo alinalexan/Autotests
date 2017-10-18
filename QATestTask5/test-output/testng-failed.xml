@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Products Management]" parallel="tests">
+  <parameter name="browser" value="android"/>
+  <test name="Task 5 [Chrome]">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="task5.QATestTask5.tests.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Task 5 [Chrome] -->
+  <test name="Task 5 [Android]">
+    <parameter name="browser" value="android"/>
+    <classes>
+      <class name="task5.QATestTask5.tests.PlaceOrderTest"/>
+    </classes>
+  </test> <!-- Task 5 [Android] -->
+  <test name="Task 5 [Android](failed)" parallel="tests">
+    <parameter name="browser" value="android"/>
+    <classes>
+      <class name="task5.QATestTask5.tests.PlaceOrderTest">
+        <methods>
+          <include name="createNewOrder"/>
+          <include name="checkSiteVersion"/>
+        </methods>
+      </class> <!-- task5.QATestTask5.tests.PlaceOrderTest -->
+    </classes>
+  </test> <!-- Task 5 [Android](failed) -->
+  <test name="Task 5 [Chrome](failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="task5.QATestTask5.tests.PlaceOrderTest">
+        <methods>
+          <include name="createNewOrder"/>
+          <include name="checkSiteVersion"/>
+        </methods>
+      </class> <!-- task5.QATestTask5.tests.PlaceOrderTest -->
+    </classes>
+  </test> <!-- Task 5 [Chrome](failed) -->
+</suite> <!-- Failed suite [Products Management] -->

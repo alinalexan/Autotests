@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Products Management" verbose="1" parallel="tests">
+    <test name="Task 5 [Chrome]" >
+        <parameter name="browser" value="chrome" />
+        <!-- <parameter name="selenium.grid" value="http://localhost:4444/wd/hub" /> -->
+        <classes>
+            <class name="task5.QATestTask5.tests.PlaceOrderTest" />
+        </classes>
+    </test>
+    <!-- -->
+    <test name="Task 5 [Android]" >
+        <parameter name="browser" value="android" />
+        <classes>
+            <class name="task5.QATestTask5.tests.PlaceOrderTest" />
+        </classes>
+    </test>
+    <!--Configure tests for other browser types-->
+</suite>
